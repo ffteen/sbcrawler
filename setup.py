@@ -11,6 +11,7 @@ setup(
     py_modules=['sbcrawler'],
     description="A light weight crawler",
     long_description=long_description,
+    long_description_content_type="text/markdown",
     url="https://github.com/ffteen/sbcrawler",
     install_requires=[
         'tornado',
