@@ -14,7 +14,7 @@ light weight crawler
 - 断点续爬
 - 错误日志记录
 
-## 用法
+## 用法示例
 
 ```python
 # -*- coding: utf-8 -*-
@@ -53,5 +53,6 @@ if __name__ == "__main__":
 
 
 ## 安装
-
-暂未在pypi发布
+```
+pip install git+https://github.com/ffteen/sbcrawler.git
+```
