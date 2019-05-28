@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name='sbcrawler',
-    version='0.1.1',
+    version='0.1.2',
     author="ffteen",
     author_email="ffteen@qq.com",
     py_modules=['sbcrawler'],

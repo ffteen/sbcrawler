@@ -135,7 +135,7 @@ class Crawler:
                     self.url_filter = set(d["url_filter"])
                     for dic in d["tasks"]:
                         self.tasks.append(Task.from_dict(dic))
-                    path.unlink()
+                path.unlink()
             except Exception as ex:
                 self.log.exception('Exception')
                 sys.exit(1)
